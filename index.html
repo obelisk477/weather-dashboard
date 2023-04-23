@@ -10,78 +10,80 @@
 </head>
 <body>
     <nav class="navbar navbar-light justify-content-center">
-        <span class="navbar-text mx-0 h1">
+        <h1 class="navbar-text mx-0 h1">
           Weather Dashboard
-        </span>
+        </h1>
     </nav>
     <main class="row justify-content-center">
-        <form class="m-4 col-3">
-            <div class="form-group">
-                <label for="exampleInputEmail1" class="m-1">Search for a City:</label>
-                <input type="email" class="form-control m-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="San Diego">
-            </div>
-            <button type="submit" class="btn btn-primary m-1">Search</button>
-        </form>
-        <div class="m-4 col-8">
+        <div class="m-4 col-2">
+            <form class="border-bottom pb-2">
+                <div class="form-group">
+                    <label for="searchCity" class="m-1">Search for a City:</label>
+                    <input type="search" class="form-control m-1" id="searchCity" placeholder="San Diego">
+                </div>
+                <button type="submit" class="btn btn-primary col-12 mx-1 my-2">Search</button>
+            </form>
+        </div>
+        <div class="m-4 col-9">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
+                    <h2 class="card-title">Card title</h2>
+                    <p class="card-text">Temp: someTemp</p>
+                    <p class="card-text">Temp: someTemp</p>
+                    <p class="card-text">Temp: someTemp</p>
                 </div>
             </div>
-            <p>5-Day Forecast</p>
-            <div class="row justify-content-around">
+            <h3 class="my-3">5-Day Forecast</h3>
+            <div class="row justify-content-around forecast">
                 <div class="card col-2">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <p class="card-text">Temp: someTemp</p>
+                        <p class="card-text">Temp: someTemp</p>
+                        <p class="card-text">Temp: someTemp</p>
                     </div>
                 </div>
                 <div class="card col-2">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <p class="card-text">Temp: someTemp</p>
+                        <p class="card-text">Temp: someTemp</p>
+                        <p class="card-text">Temp: someTemp</p>
                     </div>
                 </div>
                 <div class="card col-2">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <p class="card-text">Temp: someTemp</p>
+                        <p class="card-text">Temp: someTemp</p>
+                        <p class="card-text">Temp: someTemp</p>
                     </div>
                 </div>
                 <div class="card col-2">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <p class="card-text">Temp: someTemp</p>
+                        <p class="card-text">Temp: someTemp</p>
+                        <p class="card-text">Temp: someTemp</p>
                     </div>
                 </div>
                 <div class="card col-2">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <p class="card-text">Temp: someTemp</p>
+                        <p class="card-text">Temp: someTemp</p>
+                        <p class="card-text">Temp: someTemp</p>
                     </div>
                 </div>
             </div>
 
         </div>
     </main>
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>

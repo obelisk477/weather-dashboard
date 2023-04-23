@@ -1,3 +1,7 @@
 nav {
     background-color: #b1deff;
 }
+
+.forecast p {
+    font-size: .85rem;
+}
