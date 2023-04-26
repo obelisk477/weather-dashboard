@@ -7,7 +7,7 @@ let history = null
 // https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid=7f1e5ad6955a95bd1c55da5061778aa8
 
 
-// http://api.openweathermap.org/geo/1.0/direct?q=London&limit=5&appid=7f1e5ad6955a95bd1c55da5061778aa8
+// https://api.openweathermap.org/geo/1.0/direct?q=London&limit=5&appid=7f1e5ad6955a95bd1c55da5061778aa8
 
 // Use this for icon URL: https://openweathermap.org/img/wn/   10d   @2x.png
 
@@ -24,7 +24,7 @@ var handleSubmit = function(event) {
 
     }
     console.log(searchCity)
-    fetch('http://api.openweathermap.org/geo/1.0/direct?q='+ searchCity +'&limit=5&appid=7f1e5ad6955a95bd1c55da5061778aa8')
+    fetch('https://api.openweathermap.org/geo/1.0/direct?q='+ searchCity +'&limit=5&appid=7f1e5ad6955a95bd1c55da5061778aa8')
     .then((response) => {
         if (response.ok) {
             return response.json()
